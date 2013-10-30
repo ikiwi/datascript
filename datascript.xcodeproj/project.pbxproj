@@ -21,6 +21,8 @@
 		A67D2148181EE78E003988F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67D212A181EE78E003988F0 /* UIKit.framework */; };
 		A67D2150181EE78E003988F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A67D214E181EE78E003988F0 /* InfoPlist.strings */; };
 		A67D2152181EE78E003988F0 /* datascriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A67D2151181EE78E003988F0 /* datascriptTests.m */; };
+		A67D215D181EEC75003988F0 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = A67D215C181EEC75003988F0 /* Data.m */; };
+		A67D2160181F3077003988F0 /* Stops.m in Sources */ = {isa = PBXBuildFile; fileRef = A67D215F181F3077003988F0 /* Stops.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		A67D214D181EE78E003988F0 /* datascriptTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "datascriptTests-Info.plist"; sourceTree = "<group>"; };
 		A67D214F181EE78E003988F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A67D2151181EE78E003988F0 /* datascriptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = datascriptTests.m; sourceTree = "<group>"; };
+		A67D215B181EEC75003988F0 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		A67D215C181EEC75003988F0 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		A67D215E181F3077003988F0 /* Stops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stops.h; sourceTree = "<group>"; };
+		A67D215F181F3077003988F0 /* Stops.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stops.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				A67D2138181EE78E003988F0 /* Main.storyboard */,
 				A67D213B181EE78E003988F0 /* ViewController.h */,
 				A67D213C181EE78E003988F0 /* ViewController.m */,
+				A67D215E181F3077003988F0 /* Stops.h */,
+				A67D215F181F3077003988F0 /* Stops.m */,
+				A67D215B181EEC75003988F0 /* Data.h */,
+				A67D215C181EEC75003988F0 /* Data.m */,
 				A67D213E181EE78E003988F0 /* Images.xcassets */,
 				A67D212D181EE78E003988F0 /* Supporting Files */,
 			);
@@ -252,6 +262,8 @@
 				A67D213D181EE78E003988F0 /* ViewController.m in Sources */,
 				A67D2137181EE78E003988F0 /* AppDelegate.m in Sources */,
 				A67D2133181EE78E003988F0 /* main.m in Sources */,
+				A67D2160181F3077003988F0 /* Stops.m in Sources */,
+				A67D215D181EEC75003988F0 /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
